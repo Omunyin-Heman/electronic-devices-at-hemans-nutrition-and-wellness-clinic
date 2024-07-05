@@ -1,0 +1,73 @@
+CSS (styles.css)
+css
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.summary-section {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.summary-section h2 {
+    margin-top: 20px;
+}
+
+.summary-section div {
+    margin-bottom: 10px;
+}
+
+.summary-section label {
+    display: inline-block;
+    width: 150px;
+}
+
+.summary-section span {
+    font-weight: bold;
+    margin-left: 10px;
+}
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: dimgrey;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman's Nutrition and Wellness Clinic - EHR System</title>
+    <link rel="stylesheet" href="styles/Electronic software.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Heman's Nutrition and Wellness Clinic</h1>
+            <nav>
+                <ul>
+                    <li><a href="#patients">Patients</a></li>
+                    <li><a href="#appointments">Appointments</a></li>
+                    <li><a href="#nutritional-assessment">Nutritional Assessment</a></li>
+                    <li><a href="#reports">Reports</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="patients">
+            <div class="container">
+                <h2>Patients</h2>
+                <!-- Placeholder for patient list -->
+                <div class="patient-list">
+                    <div class="patient-card">
+                        <h3>Patient Name</h3>
+                        <p>Date of Birth: MM/DD/YYYY</p>
+                        <p>Phone: +123 456 7890</p>
+                        <p>Email: patient@example.com</p>
+                        <a href="#patient-details" class="btn">View Details</a>
+                    </div>
+                    <!-- Additional patient cards can be added dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <section id="appointments">
+            <div class="container">
+                <h2>Appointments</h2>
+                <!-- Placeholder for appointment calendar and scheduling -->
+                <div class="appointment-calendar">
+                    <!-- Calendar component or list of appointments -->
+                    <div class="appointment-card">
+                        <h3>Appointment Date/Time</h3>
+                        <p>Patient: Patient Name</p>
+                        <p>Reason: Consultation</p>
+                        <a href="#edit-appointment" class="btn">Edit Appointment</a>
+                    </div>
+                    <!-- Additional appointment cards can be added dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <section id="nutritional-assessment">
+            <div class="container">
+                <h2>Nutritional Assessment</h2>
+                <!-- Placeholder for forms and tools for nutritional assessments -->
+                <form action="#" method="post" class="assessment-form">
+                    <label for="patient-name">Patient Name:</label>
+                    <input type="text" id="patient-name" name="patient-name" required>
+
+                    <label for="dietary-intake">Dietary Intake:</label>
+                    <textarea id="dietary-intake" name="dietary-intake" rows="4" required></textarea>
+
+                    <label for="anthropometric-measurements">Anthropometric Measurements:</label>
+                    <textarea id="anthropometric-measurements" name="anthropometric-measurements" rows="4" required></textarea>
+
+                    <button type="submit" class="btn">Submit Assessment</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="reports">
+            <div class="container">
+                <h2>Reports</h2>
+                <!-- Placeholder for generated reports and analytics -->
+                <div class="report-list">
+                    <div class="report-card">
+                        <h3>Monthly Performance Report</h3>
+                        <p>Total Patients: XX</p>
+                        <p>Consultations: XX</p>
+                        <p>Average Nutritional Score: XX</p>
+                        <a href="#view-report" class="btn">View Report</a>
+                    </div>
+                    <!-- Additional report cards can be added dynamically -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Heman's Nutrition and Wellness Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+<script src="scripts/Electronic software.js"></script>
+</body>
+</html>

@@ -1,0 +1,4428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heman Nutrition and Wellness Clinic</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('healthy-clean-eating-layout-vegetarian-260nw-772073389.webp');
+            background-color: #dddddd;
+            background-blend-mode: screen;
+            background-size: contain;
+            padding-bottom: 20000px;
+            background-position: center;
+            margin-bottom: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            border: 2px;
+            border-color: blueviolet;
+            background-color: coral;
+        }
+        .image1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        .title {
+            display: inline-block;
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700px;
+            font-style: normal;
+        }
+        .left-section {
+            display: inline-block;
+        }
+        .middle-section {
+            display: flex;
+            flex-wrap: nowrap;
+            position: relative;
+        }
+        .right-section {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
+        .icon-png {
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .Home,
+        .Services,
+        .Training,
+        .case,
+        .resources,
+        .about,
+        .More {
+            padding: 12px;
+            margin: 8px;
+            border: chartreuse 2px none;
+            border-radius: 4px;
+            color: white;
+            background: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        .Home:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: lightblue;
+            min-width: 150px;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: white;
+        }
+        .Services1:hover .dropdown-menu {
+            position: absolute;
+            display: block;
+        }
+        .Services:hover {
+            display: block;
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .Training:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .case:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .resources:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .about:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .More:hover {
+            background-color: brown;
+            color: black;
+            cursor: pointer;
+        }
+        .details {
+            background-color: grey;
+            color: blue;
+            width: 400px;
+            font-size: large;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-display: inherit;
+            align-items: center;
+        }
+        .main-body {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about1 {
+            background-color: brown;
+            color: red;
+            font-family: roboto, Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .Statement {
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-display: inherit;
+            margin-left: 200px;
+        }
+        .appointment-info {
+            background-color: brown;
+            color: yellowgreen;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif, roboto;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        .footer {
+            background-color: blueviolet;
+            padding: 30px;
+            font-size: larger;
+            font-weight: bold;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .appointment-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .practioner {
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-color: #e72214;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Heman Nutrition and Wellness Clinic</h1>
+            <ul>
+                <li><a href="#" class="Home">Home</a></li>
+                <li><a href="#" class="Services Services1">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Nutritional Counseling</a></li>
+                        <li><a href="#">Meal Planning</a></li>
+                        <li><a href="#">Fitness Programs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
+<a href="#" class="Training">Training</a></li>
+                <li><a href="#" class="case">Case Studies</a></li>
+                <li><a href="#" class="resources">Resources</a></li>
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="More">More</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your content here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heman Nutrition and Wellness Clinic. All
+
+
+
+Continue generating
